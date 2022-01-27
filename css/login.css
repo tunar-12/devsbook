@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Open+Sans:wght@300&display=swap');
+body{
+    background: #fff;
+}
+
+.facediv{
+    text-align: center;
+    color: blue;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.container{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+}
+
+.displays{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.fonts{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.textlog{
+    font-size: 19px;
+    padding: 20px 0 15px 0;
+    font-weight: bold;
+}
+
+.inputs{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin: auto;
+    line-height: 10px;
+}
+
+.pad{
+    padding: 8px 0;
+}
+
+.btns{
+    background: #1877f2;
+    border-radius: 8px;
+    width: 332px;
+    border: none;
+    height: 55px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btns:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background: #176ee0;
+}
+
+.a{
+    text-decoration: none;
+    transition: 0.35;
+}
+
+.a:hover{
+    transition: 0.35s;
+    text-decoration: underline;
+}
+
+.div-a{
+    padding: 6px 0;
+}

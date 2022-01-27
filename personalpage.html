@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="css/personalpage.css">
+</head>
+
+<body onload="writedown()">
+    <header>
+        <div class="logo font">
+            devsbook
+        </div>
+        <!-- <div class="parameters font">
+            <button class="btns btn-para">Background parameters</button>
+        </div> -->
+    </header>
+    <main>
+        <div class="left-container col-3 font">
+            <h1 class="font header-text">Personal datas</h1>
+            <div id="demo" class="font"></div>
+            
+        </div>
+        <div class="middle col-6 font">
+            <div class="top-middle">
+                <div style="text-align: center;" >
+                    <button class="btns btn-top font" onclick="doyou()">Do you want to upload new photo</button>
+                </div>
+                <br>
+                <div id="upload" style="text-align: center; display: none;">
+                    <input type="file" name="" id="fileId" onchange="imageUploaded()">
+                </div>
+
+            </div>
+            <div>
+                <img src="" alt="" id="hey">
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

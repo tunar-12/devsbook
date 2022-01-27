@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:ital,wght@1,200&family=Open+Sans:wght@300&display=swap');
+header{
+    background-color:darkgrey;
+    height: 80px;
+}
+
+body{
+    margin: auto;
+}
+
+.btns{
+    background: #1877f2;
+    border-radius: 8px;
+    border: none;
+    height: 55px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btns:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background: #176ee0;
+}
+
+.profile{
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+.logo{
+    display: inline-block;
+    text-align: center;
+    color: rgb(56, 56, 184);
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.left-container{
+    height: 566px;
+    border-right: 2px solid rgb(56, 56, 184);
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.middle{
+    height: 566px;
+    display: inline-block;
+    border-right: 2px solid rgb(56, 56, 184);
+    padding-top: 10px;
+}
+
+.col-3{
+    width: 25%;
+    float: left;
+}
+
+.col-6{
+    width: 50%;
+    float: left;
+}
+
+.btn-mid
+{
+    text-align: center;
+}
+
+.logout{
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.photos-mid{
+    max-width: 250px;
+    max-height: 250px;
+}

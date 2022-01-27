@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Open+Sans:wght@300&display=swap');
+body{
+    background: #fff;
+}
+
+.facediv{
+    text-align: center;
+    color: blue;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.fonts{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 428px;
+}
+
+.displays{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.text{
+    font-size: 24px;
+}

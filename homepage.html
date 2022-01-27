@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devsbook</title>
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            devsbook
+        </div>
+
+        <div class="profile">
+            <button class="profile" onclick="profilepressed()">Profile</button>
+        </div>
+        <div class="logout">
+            <button class="logout" onclick="logout()">Logout</button>
+        </div>
+    </header>
+    <main>
+        <div class="left-container col-3 font">
+
+        </div>
+        <div class="middle col-6 font">
+            <div class="btn-mid">
+                <button class="btns" onclick="displayPhotos()">Upload New Photos</button>
+            </div>
+            <div class="photos-mid" id="photos-middle"></div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
